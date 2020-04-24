@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import { Provider } from 'react-redux'
 
-import Post from './Post';
-import PostForm from './PostForm';
+import Posts from './components/Posts';
+import PostForm from './components/PostForm';
 
 
 import store from './store'
@@ -14,7 +14,7 @@ function App() {
     <div className="App">    
       <PostForm />
       <hr />
-      <Post />
+      <Posts />
     </div>
     </Provider>
   );
